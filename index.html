@@ -3,14 +3,66 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/css/reset.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="src/css/styles.css">
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/css/styles.css" />
     <title>Antool</title>
   </head>
   <body>
-    <h1>Hello there</h1>
+    <!-- header -->
+    <header class="header">
+      <nav class="nav">
+        <div class="header-logo">
+          <img src="src/images/logo.svg" alt="" />
+          <h2 class="logo">antools.</h2>
+        </div>
+        <!--  -->
+        <ul class="header-nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#" class="categories">Categories</a></li>
+          <li><a href="#">My collections</a></li>
+          <li><a href="#">blog</a></li>
+        </ul>
+        <!--  -->
+        <div class="header-btn">
+          <button type="button" class="login-btn">Login</button>
+          <button type="button" class="signup-btn">Sign up</button>
+        </div>
+      </nav>
+
+      <section class="header-main">
+        <div class="text-wrapper">
+          <div class="discription-wrapper">
+            <h1 class="main-title">Awesome tools for Designer & Developer</h1>
+            <p class="main-discription">
+              Antool is a web collection of information on paid or free Design
+              and Development tools
+            </p>
+          </div>
+          <div class="main-input">
+            <div class="search-wrapper">
+              <div class="search"></div>
+              <input
+                class="input"
+                type="search"
+                placeholder="find more than 430+ tools..."
+              />
+            </div>
+            <button type="button" class="input-btn">Search</button>
+          </div>
+          <div class="icons-wrapper">
+            <div class="icon"></div>
+            <div class="icon"></div>
+            <div class="icon"></div>
+          </div>
+        </div>
+        <div class="background-wrapper"></div>
+      </section>
+    </header>
   </body>
 </html>

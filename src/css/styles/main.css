@@ -1,0 +1,216 @@
+.popular-tools-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 455px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.popular-tools {
+  margin-top: 200px;
+}
+
+.tools-title {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: 48px;
+  line-height: 130%;
+  margin-bottom: 25px;
+}
+
+.tools-discription {
+  text-align: center;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 90px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 90px;
+}
+
+.card {
+  width: 392px;
+  margin-bottom: 100px;
+}
+
+.title-price::before {
+  background-image: url(/src/images/figma.svg);
+  content: "";
+  display: flex;
+  background-repeat: no-repeat;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  margin-right: 30px;
+  margin-bottom: 31px;
+}
+
+.title-price {
+  display: flex;
+  padding-top: 33px;
+}
+
+.title-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-wrapper {
+  padding-left: 33px;
+  padding-right: 33px;
+}
+
+.price {
+  color: rgba(255, 165, 55, 0.55);
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 3px;
+}
+
+.card-discription {
+  width: 326px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin: 0;
+}
+
+.icons-container {
+  display: flex;
+  gap: 25px;
+  height: 33px;
+}
+
+.like::after {
+  background-image: url(/src/images/flat-color-icons_like_gray.svg);
+  content: "";
+  background-repeat: no-repeat;
+  align-items: center;
+  width: 30px;
+  display: flex;
+  height: 30px;
+}
+
+.folder::after {
+  background-image: url(/src/images/eva_folder-add-outline.svg);
+  content: "";
+  background-repeat: no-repeat;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  display: flex;
+}
+
+.figma {
+  text-transform: uppercase;
+}
+
+.visit {
+  width: 106px;
+  height: 42px;
+  background: #1e252b;
+  color: inherit;
+  display: flex;
+}
+
+.btn-icon {
+  display: flex;
+  margin-top: 37px;
+  gap: 130px;
+}
+
+.button-container {
+  margin-top: 9px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.like:hover::after {
+  background-image: url(/src/images/flat-color-icons_like.svg);
+  cursor: pointer;
+}
+
+.more {
+  color: #ff6e30;
+  font-size: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: #1e252b;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-more-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+
+.title-price_invision::before {
+  background-image: url(/src/images/invision.svg);
+  content: "";
+  display: flex;
+  background-repeat: no-repeat;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  margin-right: 30px;
+  margin-bottom: 31px;
+}
+
+
+.title-price_sketch::before {
+  background-image: url(/src/images/sketch.svg);
+  content: "";
+  display: flex;
+  background-repeat: no-repeat;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  margin-right: 30px;
+  margin-bottom: 31px;
+}
+
+.title-price_vscode::before {
+  background-image: url(/src/images/vscode.svg);
+  content: "";
+  display: flex;
+  background-repeat: no-repeat;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  margin-right: 30px;
+  margin-bottom: 31px;
+}
+
+.title-price_notion::before {
+  background-image: url(/src/images/notion.svg);
+  content: "";
+  display: flex;
+  background-repeat: no-repeat;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  margin-right: 30px;
+  margin-bottom: 31px;
+}
+
+.title-price_slack::before {
+  background-image: url(/src/images/slack.svg);
+  content: "";
+  display: flex;
+  background-repeat: no-repeat;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  margin-right: 30px;
+  margin-bottom: 31px;
+}

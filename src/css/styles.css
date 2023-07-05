@@ -1,6 +1,6 @@
 @import url(styles/header.css);
 @import url(styles/main.css);
-@import url(styles/main.css);
+@import url(styles/footer.css);
 
 body {
   font-size: 16px;
@@ -21,3 +21,5 @@ button {
   font-weight: 600;
   line-height: normal;
 }
+
+

@@ -425,3 +425,42 @@
   margin-right: 30px;
   margin-bottom: 31px;
 }
+
+.about-author {
+  width: 849px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  gap: 60px;
+}
+
+.quote p::before {
+  background-image: url(/src/images/“.svg);
+  content: "";
+  display: flex;
+  background-repeat: no-repeat;
+  align-items: center;
+  width: 103px;
+  height: 320px;
+  position: relative;
+  top: 270px;
+  right: 50px;
+} 
+ 
+
+.quote {
+  width: 393px;
+  position: relative;
+  bottom:150px;
+
+}
+
+.quote p {
+  color: rgba(255, 255, 255, 0.78);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.21px;
+}

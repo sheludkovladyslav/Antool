@@ -37,6 +37,12 @@
 .card {
   width: 392px;
   margin-bottom: 100px;
+  transition: transform 0.5s ease;
+  position: relative;
+}
+
+.card:hover {
+  transform: translateY(-20px);
 }
 
 .title-price::before {

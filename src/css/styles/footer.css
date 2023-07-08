@@ -6,8 +6,8 @@
 }
 
 .footer-wrapper {
-  width: 1099px;
-  padding-left: 108px;
+  width: 80%;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
 }

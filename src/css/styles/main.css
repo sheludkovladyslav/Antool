@@ -29,8 +29,9 @@
 .cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 25px;
+  justify-content: space-between;
+  width: 1224px;
+  margin: 0 auto;
   margin-top: 90px;
 }
 
@@ -193,7 +194,6 @@
 .btn-more-wrapper {
   display: flex;
   justify-content: center;
-  margin-top: 100px;
   margin-bottom: 217px;
 }
 
@@ -297,34 +297,6 @@
   display: flex;
   gap: 107px;
   margin-top: 55px;
-}
-
-.company::before {
-  content: "";
-  background-image: url(/src/images/logos_microsoft.svg);
-  display: flex;
-  background-repeat: no-repeat;
-  align-items: center;
-  width: 193px;
-  height: 42px;
-}
-
-.company:nth-child(2)::before {
-  background-image: url(/src/images/logos_google.svg);
-  width: 157px;
-  height: 51px;
-}
-
-.company:nth-child(3)::before {
-  background-image: url(/src/images/logos_slack.svg);
-  width: 194px;
-  height: 49px;
-}
-
-.company:nth-child(4)::before {
-  background-image: url(/src/images/logos_wordpress.svg);
-  width: 194px;
-  height: 44px;
 }
 
 .newcomer-wrapper {
@@ -507,5 +479,4 @@
   width: 553px;
   text-align: center;
   margin-bottom: 100px;
-
 }

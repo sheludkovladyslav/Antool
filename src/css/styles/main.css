@@ -8,7 +8,7 @@
 }
 
 .popular-tools {
-  margin-top: 200px;
+  padding-top: 200px;
 }
 
 .tools-title {
@@ -33,11 +33,11 @@
   width: 1224px;
   margin: 0 auto;
   margin-top: 90px;
+  row-gap: 100px;
 }
 
 .card {
   width: 392px;
-  margin-bottom: 100px;
   transition: transform 0.5s ease;
   position: relative;
 }
@@ -186,6 +186,7 @@
   line-height: normal;
   display: flex;
   justify-content: center;
+  margin-top: 100px;
   align-items: center;
   width: 184px;
   height: 64px;
@@ -281,7 +282,6 @@
     rgba(255, 72, 66, 0.1) 0%,
     rgba(44, 53, 61, 0.2) 20%
   );
-  margin-bottom: 220px;
 }
 
 .brands-title {
@@ -354,6 +354,11 @@
 
 .newcomer-card {
   width: 288px;
+}
+
+.newcomer {
+  margin-bottom: 200px;
+  padding-top: 220px;
 }
 
 .title-price_zeplin::before {
@@ -441,14 +446,12 @@
   letter-spacing: 0.21px;
 }
 
-.about-author {
-  margin-bottom: 250px;
-}
-
 .constributor {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 250px;
+  padding-bottom: 240px;
 }
 
 .constributor-input {

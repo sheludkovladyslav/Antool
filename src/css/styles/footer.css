@@ -25,7 +25,6 @@
   color: rgba(255, 255, 255, 0.9);
   font-size: 22px;
   font-weight: 600;
-  line-height: normal;
 }
 
 .logo-text::after {
@@ -34,7 +33,7 @@
 
 .copyright {
   color: rgba(255, 255, 255, 0.9);
-  line-height: normal;
+
   margin-bottom: 21px;
 }
 
@@ -43,13 +42,11 @@
 .company-title {
   color: rgba(255, 255, 255, 0.9);
   font-size: 20px;
-  line-height: normal;
 }
 
 .contacts-list,
 .categories-list,
 .company-list li {
-  line-height: normal;
 }
 
 .contacts-list,

@@ -46,11 +46,6 @@
 
 .contacts-list,
 .categories-list,
-.company-list li {
-}
-
-.contacts-list,
-.categories-list,
 .company-list {
   display: flex;
   flex-direction: column;

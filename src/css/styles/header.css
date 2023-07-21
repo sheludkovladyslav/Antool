@@ -56,6 +56,7 @@
   background-repeat: no-repeat;
   background-position: right;
   align-items: center;
+  cursor: pointer;
   background-size: contain;
 }
 
@@ -150,4 +151,28 @@
   display: flex;
   max-width: 190px;
   justify-content: space-between;
+}
+
+.header-nav li {
+  margin-right: 20px;
+  position: relative;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 20px;
+  background-color: transparent;
+  padding: 10px;
+  transition: all 0.3s ease; 
+}
+
+.categories:hover .submenu {
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+}
+
+.submenu li {
+  margin-bottom: 5px;
 }

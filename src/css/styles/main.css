@@ -132,6 +132,17 @@
   cursor: pointer;
   display: flex;
   background-position: center;
+  position: relative;
+  top: -50%;
+  visibility: visible;
+}
+
+.folder {
+  appearance: none;
+  width: 42px;
+  height: 42px;
+  position: relative;
+  visibility: hidden;
 }
 
 .visit {
@@ -480,4 +491,39 @@
   max-width: 553px;
   text-align: center;
   margin-bottom: 100px;
+}
+
+/* Сховаємо стандартний чекбокс */
+.like-checkbox {
+  border: none;
+  outline: none;
+  width: 42px;
+  height: 42px;
+  appearance: none;
+}
+
+/* Створимо власний стилізований чекбокс */
+.like-wrapper {
+  background-image: url(/src/images/flat-color-icons_like_gray.svg);
+  background-repeat: no-repeat;
+  width: 42px;
+  height: 42px;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: transparent;
+  background-position: center;
+}
+
+/* Змінимо вигляд чекбоксу при відмітці (зміні стану) */
+.like-checkbox:checked {
+  background-image: url(/src/images/flat-color-icons_like.svg);
+  cursor: pointer;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 6px 0px 10px 0px rgba(18, 18, 18, 0.15);
 }

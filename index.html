@@ -108,14 +108,14 @@
                 <div class="icons-container">
                   <!-- Замінюємо div на input type="checkbox" -->
                   <label class="like-wrapper">
-                    <input type="checkbox" class="like-checkbox">
+                    <input type="checkbox" class="like-checkbox" />
                   </label>
                   <input type="file" class="folder" />
                 </div>
                 <div class="button-container">
                   <button type="button" class="btn visit">Visit</button>
                 </div>
-              </div>              
+              </div>
             </div>
           </div>
 
@@ -134,14 +134,14 @@
                 <div class="icons-container">
                   <!-- Замінюємо div на input type="checkbox" -->
                   <label class="like-wrapper">
-                    <input type="checkbox" class="like-checkbox">
+                    <input type="checkbox" class="like-checkbox" />
                   </label>
                   <input type="file" class="folder" />
                 </div>
                 <div class="button-container">
                   <button type="button" class="btn visit">Visit</button>
                 </div>
-              </div> 
+              </div>
             </div>
           </div>
 
@@ -160,14 +160,14 @@
                 <div class="icons-container">
                   <!-- Замінюємо div на input type="checkbox" -->
                   <label class="like-wrapper">
-                    <input type="checkbox" class="like-checkbox">
+                    <input type="checkbox" class="like-checkbox" />
                   </label>
                   <input type="file" class="folder" />
                 </div>
                 <div class="button-container">
                   <button type="button" class="btn visit">Visit</button>
                 </div>
-              </div> 
+              </div>
             </div>
           </div>
 
@@ -186,14 +186,14 @@
                 <div class="icons-container">
                   <!-- Замінюємо div на input type="checkbox" -->
                   <label class="like-wrapper">
-                    <input type="checkbox" class="like-checkbox">
+                    <input type="checkbox" class="like-checkbox" />
                   </label>
                   <input type="file" class="folder" />
                 </div>
                 <div class="button-container">
                   <button type="button" class="btn visit">Visit</button>
                 </div>
-              </div> 
+              </div>
             </div>
           </div>
 
@@ -212,14 +212,14 @@
                 <div class="icons-container">
                   <!-- Замінюємо div на input type="checkbox" -->
                   <label class="like-wrapper">
-                    <input type="checkbox" class="like-checkbox">
+                    <input type="checkbox" class="like-checkbox" />
                   </label>
                   <input type="file" class="folder" />
                 </div>
                 <div class="button-container">
                   <button type="button" class="btn visit">Visit</button>
                 </div>
-              </div> 
+              </div>
             </div>
           </div>
 
@@ -238,19 +238,103 @@
                 <div class="icons-container">
                   <!-- Замінюємо div на input type="checkbox" -->
                   <label class="like-wrapper">
-                    <input type="checkbox" class="like-checkbox">
+                    <input type="checkbox" class="like-checkbox" />
                   </label>
                   <input type="file" class="folder" />
                 </div>
                 <div class="button-container">
                   <button type="button" class="btn visit">Visit</button>
                 </div>
-              </div> 
+              </div>
+            </div>
+          </div>
+
+          <div class="card" id="card-hidden">
+            <div class="card-wrapper">
+              <div class="title-price title-price-webstorm">
+                <div class="title-wrapper">
+                  <p class="uper card-title">WebStorm</p>
+                  <p class="price">Paid</p>
+                </div>
+              </div>
+              <p class="card-discription">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <div class="btn-icon">
+                <div class="icons-container">
+                  <!-- Замінюємо div на input type="checkbox" -->
+                  <label class="like-wrapper">
+                    <input type="checkbox" class="like-checkbox" />
+                  </label>
+                  <input type="file" class="folder" />
+                </div>
+                <div class="button-container">
+                  <button type="button" class="btn visit">Visit</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" id="card-hidden-notepad">
+            <div class="card-wrapper">
+              <div class="title-price title-price-notepad">
+                <div class="title-wrapper">
+                  <p class="uper card-title">Notepad++</p>
+                  <p class="price">Free</p>
+                </div>
+              </div>
+              <p class="card-discription">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <div class="btn-icon">
+                <div class="icons-container">
+                  <!-- Замінюємо div на input type="checkbox" -->
+                  <label class="like-wrapper">
+                    <input type="checkbox" class="like-checkbox" />
+                  </label>
+                  <input type="file" class="folder" />
+                </div>
+                <div class="button-container">
+                  <button type="button" class="btn visit">Visit</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" id="card-hidden-atom">
+            <div class="card-wrapper">
+              <div class="title-price title-price-atom">
+                <div class="title-wrapper">
+                  <p class="uper card-title">Atom</p>
+                  <p class="price">Free</p>
+                </div>
+              </div>
+              <p class="card-discription">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <div class="btn-icon">
+                <div class="icons-container">
+                  <!-- Замінюємо div на input type="checkbox" -->
+                  <label class="like-wrapper">
+                    <input type="checkbox" class="like-checkbox" />
+                  </label>
+                  <input type="file" class="folder" />
+                </div>
+                <div class="button-container">
+                  <button type="button" class="btn visit">Visit</button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <div class="btn-more-wrapper">
-          <button type="button" class="btn more">Load more</button>
+          <button
+            type="button"
+            class="btn more"
+            onclick="document.getElementById('card-hidden').style.display = 'flex', document.getElementById('card-hidden-notepad').style.display = 'flex', document.getElementById('card-hidden-atom').style.display = 'flex'"
+          >
+            Load more
+          </button>
         </div>
       </section>
       <section class="trusted-brands">
@@ -306,10 +390,11 @@
                 </p>
                 <div class="newcomer-btn-icon btn-icon">
                   <div class="icons-container">
-                    <div class="like-wrapper">
-                      <div class="like"></div>
-                    </div>
-                    <div class="folder"></div>
+                    <!-- Замінюємо div на input type="checkbox" -->
+                    <label class="like-wrapper">
+                      <input type="checkbox" class="like-checkbox" />
+                    </label>
+                    <input type="file" class="folder" />
                   </div>
                   <div class="button-container">
                     <button type="button" class="btn visit">Visit</button>
@@ -331,10 +416,11 @@
                 </p>
                 <div class="newcomer-btn-icon btn-icon">
                   <div class="icons-container">
-                    <div class="like-wrapper">
-                      <div class="like"></div>
-                    </div>
-                    <div class="folder"></div>
+                    <!-- Замінюємо div на input type="checkbox" -->
+                    <label class="like-wrapper">
+                      <input type="checkbox" class="like-checkbox" />
+                    </label>
+                    <input type="file" class="folder" />
                   </div>
                   <div class="button-container">
                     <button type="button" class="btn visit">Visit</button>
@@ -356,10 +442,11 @@
                 </p>
                 <div class="newcomer-btn-icon btn-icon">
                   <div class="icons-container">
-                    <div class="like-wrapper">
-                      <div class="like"></div>
-                    </div>
-                    <div class="folder"></div>
+                    <!-- Замінюємо div на input type="checkbox" -->
+                    <label class="like-wrapper">
+                      <input type="checkbox" class="like-checkbox" />
+                    </label>
+                    <input type="file" class="folder" />
                   </div>
                   <div class="button-container">
                     <button type="button" class="btn visit">Visit</button>
@@ -381,10 +468,11 @@
                 </p>
                 <div class="newcomer-btn-icon btn-icon">
                   <div class="icons-container">
-                    <div class="like-wrapper">
-                      <div class="like"></div>
-                    </div>
-                    <div class="folder"></div>
+                    <!-- Замінюємо div на input type="checkbox" -->
+                    <label class="like-wrapper">
+                      <input type="checkbox" class="like-checkbox" />
+                    </label>
+                    <input type="file" class="folder" />
                   </div>
                   <div class="button-container">
                     <button type="button" class="btn visit">Visit</button>
@@ -397,10 +485,13 @@
       </section>
       <div class="about-author">
         <div class="image">
-          <img
-            src="./src/images/david-suarez-4a1nNlrS5ZI-unsplash.png"
-            alt=""
-          />
+          <img src="./src/images/group1419.png" alt="user-photo" />
+          <div class="user-description">
+            <div class="user-wrapper">
+              <h2 class="user-name">Ronald Richards</h2>
+              <p class="user-job">Product Manager</p>
+            </div>
+          </div>
         </div>
         <div class="quote">
           <p>

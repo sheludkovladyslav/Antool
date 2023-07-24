@@ -328,12 +328,12 @@
           </div>
         </div>
         <div class="btn-more-wrapper">
-          <button
-            type="button"
-            class="btn more"
-            onclick="document.getElementById('card-hidden').style.display = 'flex', document.getElementById('card-hidden-notepad').style.display = 'flex', document.getElementById('card-hidden-atom').style.display = 'flex'"
-          >
+          <button type="button" class="btn more" id="loadMore">
             Load more
+          </button>
+
+          <button type="button" class="btn more" id="hideMore">
+            Hide Cards(More)
           </button>
         </div>
       </section>
@@ -566,5 +566,7 @@
         </section>
       </div>
     </footer>
+
+    <script src="src/js/script.js"></script>
   </body>
 </html>

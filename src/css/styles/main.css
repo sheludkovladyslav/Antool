@@ -326,7 +326,7 @@
 
 .user-description {
   border-radius: 8px;
-  background: rgba(40, 48, 54, 0.20);
+  background: rgba(40, 48, 54, 0.2);
   backdrop-filter: blur(25px);
   display: flex;
   flex-direction: column;
@@ -337,14 +337,18 @@
   margin: 0 auto;
   background: radial-gradient(
     circle at 100% 100%,
-    rgba(31, 58, 77, 1) 0%,
-    rgba(31, 58, 77, 1) 0%,
-    rgba(39, 45, 53, 1) 32%
+    rgba(30, 58, 78, 1) 0%,
+    rgba(55, 48, 48, 1) 31%,
+    rgba(34, 44, 51, 1) 65%
   );
+
   position: relative;
   top: -130px;
   left: 70px;
-  
+}
+
+#hideMore {
+  display: none;
 }
 
 .user-wrapper {

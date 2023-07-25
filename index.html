@@ -373,7 +373,8 @@
               </p>
             </div>
             <div class="explore-btn">
-              <button class="btn explore" type="button">Explore more</button>
+              <button class="btn explore" type="button" id="exploreMore">Explore more</button>
+              <button class="btn explore" type="button" id="hide-more">Hide More</button>
             </div>
           </section>
           <div class="newcomer-cards">
@@ -480,6 +481,60 @@
                 </div>
               </div>
             </div>
+
+            
+            <div class="newcomer-card card" id="hidden-picsArt">
+              <div class="newcomer-card-wrapper">
+                <div class="title-price title-price-picsart">
+                  <div class="title-wrapper">
+                    <p class="card-title">PicsArt</p>
+                    <p class="price">Paid</p>
+                  </div>
+                </div>
+                <p class="newcomer-card-discription card-discription">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <div class="newcomer-btn-icon btn-icon">
+                  <div class="icons-container">
+                    <!-- Замінюємо div на input type="checkbox" -->
+                    <label class="like-wrapper">
+                      <input type="checkbox" class="like-checkbox" />
+                    </label>
+                    <input type="file" class="folder" />
+                  </div>
+                  <div class="button-container">
+                    <button type="button" class="btn visit">Visit</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="newcomer-card card" id="hidden-illustrator">
+              <div class="newcomer-card-wrapper">
+                <div class="title-price title-price-illustrator">
+                  <div class="title-wrapper">
+                    <p class="card-title">Adobe Illustrator</p>
+                    <p class="price">Trial & Paid</p>
+                  </div>
+                </div>
+                <p class="newcomer-card-discription card-discription">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <div class="newcomer-btn-icon btn-icon">
+                  <div class="icons-container">
+                    <!-- Замінюємо div на input type="checkbox" -->
+                    <label class="like-wrapper">
+                      <input type="checkbox" class="like-checkbox" />
+                    </label>
+                    <input type="file" class="folder" />
+                  </div>
+                  <div class="button-container">
+                    <button type="button" class="btn visit">Visit</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -521,7 +576,7 @@
             />
           </div>
           <div class="btn-container">
-            <button type="button" class="input-btn">Join Us</button>
+            <button type="submit" id="joinUs" class="input-btn">Join Us</button>
           </div>
         </div>
       </section>

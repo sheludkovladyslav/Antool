@@ -1,0 +1,23 @@
+@import "components/reset";
+@import "components/header";
+@import "components/main";
+@import "components/footer";
+
+body {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: rgba(255, 255, 255, 0.55);
+  background-color: #1e252b;
+}
+
+button {
+  width: 118px;
+  height: 48px;
+  border-radius: 8px;
+  background: #ff6e30;
+  border: none;
+  cursor: pointer;
+  color: #fdf5ff;
+  font-weight: 600;
+}

@@ -24,6 +24,25 @@ h6 {
   font-weight: inherit;
 }
 
+body {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: rgba(255, 255, 255, 0.55);
+  background-color: #1e252b;
+}
+
+button {
+  width: 118px;
+  height: 48px;
+  border-radius: 8px;
+  background: #ff6e30;
+  border: none;
+  cursor: pointer;
+  color: #fdf5ff;
+  font-weight: 600;
+}
+
 .header {
   padding-top: 38px;
 }
@@ -346,8 +365,8 @@ h6 {
 
 .folder {
   -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   width: 42px;
   height: 42px;
   position: relative;
@@ -489,10 +508,14 @@ h6 {
 }
 
 .card:hover {
-  background: radial-gradient(circle at right top, rgba(255, 110, 48, 0.6) 0%, rgba(40, 48, 54, 0.6) 15%);
+  background: radial-gradient(
+    circle at right top,
+    rgba(255, 110, 48, 0.6) 0%,
+    rgba(40, 48, 54, 0.6) 15%
+  );
   border-radius: 15px;
   -webkit-backdrop-filter: blur(25px);
-          backdrop-filter: blur(25px);
+  backdrop-filter: blur(25px);
 }
 
 .title-price_notion::before {
@@ -533,7 +556,7 @@ h6 {
   border-radius: 8px;
   background: rgba(40, 48, 54, 0.2);
   -webkit-backdrop-filter: blur(25px);
-          backdrop-filter: blur(25px);
+  backdrop-filter: blur(25px);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -541,7 +564,12 @@ h6 {
   padding-bottom: 16px;
   width: 265px;
   margin: 0 auto;
-  background: radial-gradient(circle at 100% 100%, rgb(30, 58, 78) 0%, rgb(55, 48, 48) 31%, rgb(34, 44, 51) 65%);
+  background: radial-gradient(
+    circle at 100% 100%,
+    rgb(30, 58, 78) 0%,
+    rgb(55, 48, 48) 31%,
+    rgb(34, 44, 51) 65%
+  );
   position: relative;
   top: -130px;
   left: 70px;
@@ -566,13 +594,17 @@ h6 {
   border-radius: 25px;
   background: rgba(44, 53, 61, 0.2);
   -webkit-backdrop-filter: blur(25px);
-          backdrop-filter: blur(25px);
+  backdrop-filter: blur(25px);
   max-width: 1224px;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
-  background: radial-gradient(circle at left top, rgba(255, 72, 66, 0.1) 0%, rgba(44, 53, 61, 0.2) 20%);
+  background: radial-gradient(
+    circle at left top,
+    rgba(255, 72, 66, 0.1) 0%,
+    rgba(44, 53, 61, 0.2) 20%
+  );
 }
 
 .brands-title {
@@ -698,7 +730,8 @@ h6 {
   margin-bottom: 31px;
 }
 
-#hidden-picsArt, #hidden-illustrator {
+#hidden-picsArt,
+#hidden-illustrator {
   display: none;
 }
 
@@ -812,8 +845,8 @@ h6 {
   width: 42px;
   height: 42px;
   -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 /* Створимо власний стилізований чекбокс */
@@ -903,21 +936,4 @@ h6 {
   flex-direction: column;
 }
 
-body {
-  font-size: 16px;
-  font-weight: 500;
-  font-family: "Poppins", sans-serif;
-  color: rgba(255, 255, 255, 0.55);
-  background-color: #1e252b;
-}
 
-button {
-  width: 118px;
-  height: 48px;
-  border-radius: 8px;
-  background: #ff6e30;
-  border: none;
-  cursor: pointer;
-  color: #fdf5ff;
-  font-weight: 600;
-}
